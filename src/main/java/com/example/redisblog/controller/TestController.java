@@ -22,7 +22,6 @@ public class TestController {
 
     @PostMapping(value =  "")
     public String saveUserInfo(TestDto testDto) throws JsonProcessingException {
-        log.info("testDto: {}", testDto);
         testRepository.saveUserInfo(testDto);
         return "success";
     }
