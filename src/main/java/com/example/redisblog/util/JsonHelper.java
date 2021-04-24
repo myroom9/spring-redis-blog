@@ -5,6 +5,9 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.IOException;
 
 
+/**
+ * JSON HELPER CLASS
+ */
 @SuppressWarnings("ALL")
 public class JsonHelper {
 
